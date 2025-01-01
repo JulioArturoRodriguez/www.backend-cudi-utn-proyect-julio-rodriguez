@@ -114,4 +114,4 @@ Antes de ejecutar este proyecto, asegúrate de tener instalados los siguientes c
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tuusuario/tu-repositorio.git
+   git clone https://github.com/JulioArturoRodriguez/www.backend-cudi-utn-proyect-julio-rodriguez.git
