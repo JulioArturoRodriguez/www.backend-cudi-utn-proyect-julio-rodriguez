@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 4000;
 
 
 app.use(cors({
-  origin: 'http://localhost:5176', 
+  origin: 'https://www-front-diplomatura-proyect-utncudi-julioi-rodiguez-com.vercel.app/', 
   methods: 'GET,POST,PUT,DELETE',
   credentials: true  
 }));
