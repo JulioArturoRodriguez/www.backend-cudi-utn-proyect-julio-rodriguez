@@ -1,4 +1,4 @@
-import Carrito from '../model/Carrito.js';
+import Carrito from '../model/carrito.js';
 import User from '../model/usuario.js';
 import Producto from '../model/producto.js';
 
