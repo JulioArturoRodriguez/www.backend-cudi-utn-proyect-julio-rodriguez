@@ -1,0 +1,2 @@
+{"level":"info","message":"Servidor funcionando en el puerto 4000","timestamp":"2024-12-19T04:41:21.090Z"}
+{"level":"error","message":"Error al conectar a MongoDB:","timestamp":"2024-12-19T04:41:51.091Z"}

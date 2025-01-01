@@ -1,0 +1,5 @@
+{"level":"error","message":"Error al conectar a MongoDB:","timestamp":"2024-12-19T17:29:18.419Z"}
+{"level":"error","message":"Error al conectar a MongoDB:","timestamp":"2024-12-19T17:31:36.203Z"}
+{"level":"info","message":"Servidor funcionando en el puerto 3001","timestamp":"2024-12-19T17:31:36.209Z"}
+{"level":"error","message":"Error al conectar a MongoDB:","timestamp":"2024-12-19T17:32:41.013Z"}
+{"level":"info","message":"Servidor funcionando en el puerto 3001","timestamp":"2024-12-19T17:32:41.020Z"}

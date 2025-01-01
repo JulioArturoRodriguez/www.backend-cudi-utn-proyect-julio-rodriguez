@@ -1,0 +1,14 @@
+{"level":"error","message":"Error al conectar a MongoDB:","timestamp":"2024-12-19T21:02:31.456Z"}
+{"level":"info","message":"Servidor funcionando en el puerto 3000","timestamp":"2024-12-19T21:02:31.462Z"}
+{"level":"error","message":"Error al conectar a MongoDB:","timestamp":"2024-12-19T21:05:49.935Z"}
+{"level":"info","message":"Servidor funcionando en el puerto 3000","timestamp":"2024-12-19T21:05:49.941Z"}
+{"level":"info","message":"Conectado a MongoDB","timestamp":"2024-12-19T21:16:36.214Z"}
+{"level":"info","message":"Servidor funcionando en el puerto 3000","timestamp":"2024-12-19T21:16:36.219Z"}
+{"level":"error","message":"Error al conectar a MongoDB:","timestamp":"2024-12-19T21:39:31.141Z"}
+{"level":"info","message":"Servidor funcionando en el puerto 3000","timestamp":"2024-12-19T21:39:31.147Z"}
+{"level":"error","message":"Error al conectar a MongoDB:","timestamp":"2024-12-19T21:40:39.288Z"}
+{"level":"info","message":"Servidor funcionando en el puerto 3000","timestamp":"2024-12-19T21:40:39.293Z"}
+{"level":"info","message":"Conectado a MongoDB","timestamp":"2024-12-19T21:50:41.648Z"}
+{"level":"info","message":"Servidor funcionando en el puerto 3000","timestamp":"2024-12-19T21:50:41.654Z"}
+{"level":"info","message":"Conectado a MongoDB","timestamp":"2024-12-19T21:56:44.199Z"}
+{"level":"info","message":"Servidor funcionando en el puerto 3000","timestamp":"2024-12-19T21:56:44.203Z"}
