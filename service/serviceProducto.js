@@ -1,5 +1,5 @@
 import Producto from '../model/producto.js';
-import Carrito from '../model/Carrito.js';
+import Carrito from '../model/carrito.js';
 
 
 
