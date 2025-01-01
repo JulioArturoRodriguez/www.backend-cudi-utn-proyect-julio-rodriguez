@@ -11,7 +11,15 @@ import router from './router/carrito.js';
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 4000;
+const port = process.env.PORT || 4000;
+
+app.get('/', (req, res) => {
+  res.send('conectado')
+})
+
+app.listen(port, () => {
+  console.log(`se encontro el puerto ${port}`)
+})
 
 
 app.use(cors({
