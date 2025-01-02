@@ -116,6 +116,9 @@ Antes de ejecutar este proyecto, asegúrate de tener instalados los siguientes c
    ```bash
    git clone https://github.com/JulioArturoRodriguez/www.backend-cudi-utn-proyect-julio-rodriguez.git
 
+##INTEGRANTES
+#JULIO ARTURO RODRIGUEZ
+
 
 # Estructura de Directorios
 
@@ -169,10 +172,6 @@ Este es el esquema de directorios del backend del proyecto. Está organizado par
 ├── combined.log                    # Archivo de log combinado
 ├── error.log                       # Archivo de log de errores
 ├── index.js                        # Archivo principal de la aplicación
-
-##INTEGRANTES
-#JULIO ARTURO RODRIGUEZ
-
 ├── package-lock.json               # Archivo de bloqueo de dependencias
 ├── package.json                    # Archivo de configuración de npm
 └── README.md                       # Archivo de documentación del proyecto
