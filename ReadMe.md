@@ -115,3 +115,61 @@ Antes de ejecutar este proyecto, asegúrate de tener instalados los siguientes c
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/JulioArturoRodriguez/www.backend-cudi-utn-proyect-julio-rodriguez.git
+
+
+# Estructura de Directorios
+
+Este es el esquema de directorios del backend del proyecto. Está organizado para facilitar el mantenimiento, escalabilidad y claridad en la lógica del negocio.
+
+```plaintext
+/project-root
+├── /controller
+│   ├── carritoController.js        # Lógica para la gestión del carrito de compras
+│   ├── controllerMensaje.js        # Lógica para la gestión de mensajes
+│   ├── controllerProductos.js      # Lógica para la gestión de productos
+│   ├── mensajeController.js        # Controlador para los mensajes
+│   └── usuarios.js                 # Lógica para la gestión de usuarios
+│
+├── /logs
+│   ├── combined.log                # Registro de logs combinado (información y errores)
+│   └── error.log                   # Registro de errores
+│
+├── /middleware
+│   ├── authMiddleware.js           # Middleware para autenticación
+│   ├── brotliMiddleware.js         # Middleware para compresión Brotli
+│   └── validationMiddleware.js     # Middleware para validaciones generales
+│
+├── /model
+│   ├── carrito.js                  # Modelo para los carritos de compra
+│   ├── mensaje.js                  # Modelo para los mensajes
+│   ├── producto.js                 # Modelo para los productos
+│   └── usuario.js                  # Modelo para los usuarios
+│
+├── /router
+│   ├── carrito.js                  # Rutas relacionadas con el carrito de compras
+│   ├── mensaje.js                  # Rutas relacionadas con los mensajes
+│   ├── productos.js                # Rutas relacionadas con los productos
+│   └── user.js                     # Rutas relacionadas con los usuarios
+│
+├── /service
+│   ├── serviceCompra.js            # Lógica de negocio para la compra
+│   ├── serviceLogin.js             # Lógica de negocio para login
+│   ├── serviceProducto.js          # Lógica de negocio para productos
+│   ├── serviceUsuario.js           # Lógica de negocio para usuarios
+│   └── serviceUsuarioNoEncontrado.js # Lógica para el caso de usuario no encontrado
+│
+├── /util
+│   └── utilGenerarToken.js         # Utilidad para generar tokens JWT
+│
+├── /validation
+│   └── validacionProducto.js       # Validaciones relacionadas con los productos
+│
+├── .env                            # Archivo de configuración de variables de entorno
+├── .gitignore                      # Archivos y carpetas que Git debe ignorar
+├── combined.log                    # Archivo de log combinado
+├── error.log                       # Archivo de log de errores
+├── index.js                        # Archivo principal de la aplicación
+├── package-lock.json               # Archivo de bloqueo de dependencias
+├── package.json                    # Archivo de configuración de npm
+└── README.md                       # Archivo de documentación del proyecto
+
